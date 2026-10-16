@@ -1,0 +1,30 @@
+HISTORYVERSE 360 – UASA T2 2026 (MARKAH RINGKAS)
+
+FORMAT:
+Objektif /20; Soalan Struktur 1, 2, 3, 4 (setiap satu /10);
+Pilih Esei 5 atau 6, kemudian isi markah /20.
+Jumlah /80, peratus dan gred dikira automatik.
+
+Google Sheets sedia ada (ID dalam Code.gs) digunakan sebagai simpanan.
+Data baharu disimpan pada tab 'DATA MARKAH RINGKAS'.
+Tab/markah lama tidak dipadam. Sistem baharu TIDAK mengimport
+markah daripada borang lama secara automatik.
+
+CARA PASANG:
+1. Buka fail Google Sheets 'Markah sejarah 2026'.
+2. Extensions > Apps Script.
+3. Gantikan Code.gs lama dengan fail Code.gs yang disediakan.
+4. Tambah/gantikan fail Roster.gs dengan kandungan Roster.gs.
+5. Tambah/gantikan fail HTML bernama Index dengan kandungan Index.html.
+6. Simpan, pilih fungsi setupOnce, Run dan benarkan akses Google.
+7. Deploy > Manage deployments > Edit > New version > Deploy
+   (atau New deployment > Web app jika ini pemasangan pertama).
+   Execute as: Me. Who has access: Only myself.
+8. Buka pautan Web App pada laptop atau telefon dengan akaun Google yang sama.
+
+GitHub Pages: Gunakan index-github.html sebagai halaman pintu masuk,
+BUKAN borang markah awam. Jangan muat naik Roster.gs, Code.gs,
+atau senarai nama murid ke repositori awam.
+
+Nota keselamatan: Nama dan gred murid adalah data peribadi. Hadkan
+kebenaran fail Google Sheets dan Web App kepada guru berkenaan.
